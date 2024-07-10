@@ -1,0 +1,162 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #2b2b2b;
+}
+
+header .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('header-bg.jpg'); /* Background image for header */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+header .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+header .hero .btn {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 1em;
+}
+
+.results {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #2b2b2b;
+}
+
+.results h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.results-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.result {
+    width: 150px;
+    margin-bottom: 20px;
+    background-color: #ff6b6b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.result .percentage {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form .btn {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
+
+footer .social-icons img {
+    width: 30px;
+    height: 30px;
+}
