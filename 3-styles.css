@@ -1,0 +1,128 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --primary-color: #FF6565;
+    --background-color: #1E1E2F;
+    --text-color: #FFFFFF;
+}
+
+/* What We Do Section */
+.what-we-do {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+/* Contact Us Section */
+.contact-us {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-us h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff6565;
+    outline: none;
+}
+
+.what-we-do h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: opacity 0.3s ease;
+}
+
+.cta-button:hover, .cta-button:active {
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
